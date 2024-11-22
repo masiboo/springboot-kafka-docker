@@ -1,5 +1,11 @@
 # kafka-installation
 
+# GUI tool for kafka
+https://www.kafkatool.com/   
+
+Offset Explorer (formerly Kafka Tool) for your operating system
+
+
 # Command uses 
 ```docker-compose up```
 ### Move into Kafka container
@@ -17,4 +23,8 @@
 ```POST http://localhost:8080/publish?message=test```
 
 ```GET http://localhost:8080/consume```
+
+```GET http://localhost:8080/consumeFromTopic?topicName=newTopic5```
+
+
 
